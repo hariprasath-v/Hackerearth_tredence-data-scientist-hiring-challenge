@@ -33,7 +33,6 @@
         * Numpy
         * Matplotlib
         * catboost
-        * shap
      ### Data Pre-processing
          
      ### For the test data daily dispatch count is to be predicted. So first build the catboost regressor model to predict the          daily dispatch count and then by using the daily dispatch count build the final catboost regressor model for weekly            dispatch count prediction.      
